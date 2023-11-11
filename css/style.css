@@ -11,7 +11,7 @@
 }
 
 .jumbotron{
-    background-image: url(/img/bengkel2.jpg);
+    background-image: url(/img/bengkel1.jpg);
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -51,10 +51,11 @@
     margin-left: 50px;
     margin-right: 100px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .workspace h4{
-    font-size: 52px;
+    font-size: 30px;
     font-weight: 200;
     text-transform: uppercase; 
     margin-top: 10px;
@@ -128,9 +129,13 @@
     color: rgb(0, 0, 0);
 }
 
+.card{
+    width: auto;
+}
+
 
 .carousel{
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
     background-color:5px 5px 5px rgb(0, 0, 7) ;
@@ -166,6 +171,7 @@
 
 .workspace h4{
     margin-top: -10px;
+    font-size: 60px;
 }
 
 .jumbotron{
@@ -188,6 +194,14 @@
 
 .testimoni h5{
     font-size: 40px;
+}
+
+.carousel{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color:5px 5px 5px rgb(0, 0, 7) ;
+    text-shadow: 5px 5px 5px rgb(0, 0, 7) ;
 }
 
 
