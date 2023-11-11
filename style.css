@@ -1,0 +1,196 @@
+/* navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.jumbotron{
+    background-image: url(/img/bengkel1.jpg);
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+
+.info-panel{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 20px rgb(0, 0, 5);
+    margin-top: -50px;
+    border-radius: 12px;
+}
+
+.info-panel img{
+    width: 80px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info-panel h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.info-panel p {
+    font-size: 20px;
+    color: rgb(136, 129, 129);
+    margin-top: -5px;
+}
+
+/* workspace */
+.workspace{
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.workspace h4{
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase; 
+    margin-top: 10px;
+}
+
+.workspace h4 span{
+    font-weight: 500;
+}
+
+.workspace p{
+    font-size: 20px;
+    color: rgb(136, 129, 129);
+    font-weight: 200;
+    margin: 25px 0;
+}
+
+
+
+.jumbotron, .display-4{
+    color: rgb(255, 255, 255);
+    font-weight: 200;   
+    text-shadow: 2px 2px 2px rgb(0, 0, 7) ;
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.jumbotron, .display-4 span{
+    font-weight: 800;
+}
+
+
+
+/* testimoni */
+.testimoni{
+    margin-top: 100px;
+}
+
+.testimoni h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.testimoni figure img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.testimoni figure h5{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.testimoni figure p{
+    font-size: 14px;
+    color: #acacac;
+    margin-top: 5px;
+}
+
+.testimoni figcaption{
+    text-align: center;
+}
+
+
+.card h4{
+    font-size: 30px;
+    font-family: viga;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.carousel{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color:5px 5px 5px rgb(0, 0, 7) ;
+    text-shadow: 5px 5px 5px rgb(0, 0, 7) ;
+}
+
+.carousel-caption h5{
+    text-shadow: 5px 5px 5px rgb(247, 247, 255) ;
+}
+
+/* Destop Version Respon */
+@media (min-width: 992px) { 
+
+.navbar-brand, .nav-link{
+    color: white !important;
+    text-shadow: 2px 2px 2px rgb(0, 0, 7) ;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(255, 25, 0);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px ;
+    margin-bottom: -8px
+}
+
+.workspace h4{
+    margin-top: -10px;
+}
+
+.jumbotron{
+    margin-top: -75px ;
+    height: 500px;
+}
+
+.jumbotron, .display-4{
+    font-size: 62px;
+    
+}
+
+.display-4{
+    margin-top: 100px;
+}
+
+.workspace{
+    text-align: left;
+}
+
+.testimoni h5{
+    font-size: 40px;
+}
+
+
+
+
+}
