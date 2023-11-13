@@ -25,13 +25,12 @@
     text-shadow: 5px 5px 5px rgb(73, 73, 75) ;
     font-size: 32px;
     margin-bottom: 30px;
-    font-family:'Segoe UI';
-    border-color: rgb(0, 0, 0);
+    font-family: Viga;
 }
 
 .jumbotron, .display-4 span{
     font-weight: 900;
-    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .info-panel{
@@ -92,9 +91,6 @@
 }
 
 
-
-
-
 /* testimoni */
 .testimoni{
     margin-top: 100px;
@@ -145,7 +141,11 @@
     font-size: 30px;
 }
 
-.card small{
+.card p{
+    text-align: center;
+}
+
+.card h5{
     text-align: center;
 }
 
